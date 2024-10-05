@@ -2,7 +2,7 @@ import express from 'express';
 import { generatePets } from '../mocks/mockingPets.js';
 import { generateUsers } from '../mocks/mockingUsers.js';
 import User from '../dao/models/User.js';
-import Pet from '../dao/models/Pet.js';
+import Pet from '../dao/models/Mascota.js';
 
 const router = express.Router();
 

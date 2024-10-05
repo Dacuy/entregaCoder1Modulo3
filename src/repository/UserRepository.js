@@ -1,5 +1,5 @@
 
-import GenericRepository from "./GenericRepository.js";
+import GenericRepository from "./RepositoryGenerico.js";
 
 export default class UserRepository extends GenericRepository{
     constructor(dao){
